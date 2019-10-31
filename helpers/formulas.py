@@ -23,5 +23,5 @@ class Formulas():
 		:parameter dataframe df_right: another input dataframe
 		"""
 		df = pd.merge(df_left, df_right, on='Timestamp')
-		return(df)
+		return df
 
