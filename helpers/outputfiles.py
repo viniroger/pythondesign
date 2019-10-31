@@ -25,4 +25,3 @@ class OutputFiles():
 		import matplotlib.pyplot as plt
 		plt.plot(df['var1'], df['var2'], '.')
 		plt.show()
-		return()
