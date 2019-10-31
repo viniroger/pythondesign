@@ -26,5 +26,5 @@ class InputFiles():
 		import pandas as pd
 		filename = '%s/%s_%s.csv' %(self.path, place, year)
 		df = pd.read_csv(filename)
-		return(df)
+		return df
 
